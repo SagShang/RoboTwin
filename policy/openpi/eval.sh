@@ -6,7 +6,7 @@ task_config=${2}
 ckpt_setting=${3:-remote}
 server_host=${4:-172.18.1.203}
 server_port=${5:-12350}
-seed=${6:-42}
+seed=${6:-0}
 
 cd ../..
 
