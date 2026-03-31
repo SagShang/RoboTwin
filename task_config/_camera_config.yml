@@ -9,9 +9,9 @@ Large_L515:
   h: 360
 
 D435:
-  fovy: 37
+  fovy: 42
   w: 320
-  h: 240
+  h: 180
 
 Large_D435:
   fovy: 37
