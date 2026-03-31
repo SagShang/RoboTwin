@@ -12,7 +12,7 @@ def images_encoding(imgs):
     padded_data = []
     max_len = 0
     for i in range(len(imgs)):
-        success, encoded_image = cv2.imencode(".jpg", imgs[i])
+        success, encoded_image = cv2.imencode(".jpg", cv2.cvtColor(imgs[i], cv2.COLOR_RGB2BGR))
         jpeg_data = encoded_image.tobytes()
         encode_data.append(jpeg_data)
         max_len = max(max_len, len(jpeg_data))
