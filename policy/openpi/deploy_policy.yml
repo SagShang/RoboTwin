@@ -9,4 +9,4 @@ instruction_type: unseen
 server_host: 172.18.1.203
 server_port: 12350
 timeout: 30
-open_loop_steps: 50
+open_loop_steps: 20
