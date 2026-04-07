@@ -4,7 +4,7 @@ task_name: null
 task_config: null
 ckpt_setting: null
 seed: 42
-instruction_type: unseen
+instruction_type: seen
 
 server_host: 172.18.1.203
 server_port: 12350
