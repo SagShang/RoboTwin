@@ -1,0 +1,12 @@
+# Basic experiment configuration
+policy_name: openpi_recap
+task_name: null
+task_config: null
+ckpt_setting: null
+seed: 42
+instruction_type: seen
+
+server_host: 127.0.0.1
+server_port: 12345
+timeout: 30
+open_loop_steps: 20
